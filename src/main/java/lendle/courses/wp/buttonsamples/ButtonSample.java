@@ -35,7 +35,7 @@ public class ButtonSample {
         JButton button=null;
         ImageIcon icon=null;
         ImageIcon icon2=new ImageIcon(icon.getImage().getScaledInstance(25, 25, Image.SCALE_SMOOTH));
-        button.setIcon();
+        //button.setIcon();
         ////////////////////////////////////
         frame.add(button);
         frame.getRootPane().setDefaultButton(button);
